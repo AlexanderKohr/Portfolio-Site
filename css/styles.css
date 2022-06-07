@@ -17,7 +17,7 @@ Secondary Color  #b8b8ff
   --background-color: #e5e9f9;
   --secondary-color: #b8b8ff;
   --button-text-color: #fff;
-  --grid-background-color: #d3d3d3;
+  --grid-background-color: #CAD2F3;
   --fontsize-body: 16px;
   --fontsize-h1: 30px;
   --fontsize-h2: 24px;
@@ -347,6 +347,7 @@ textarea {
   min-height: auto;
   margin: 0;
   padding: 20px;
+  border-radius: 15px;
 }
 
 .grid__item:last-child {
@@ -366,6 +367,7 @@ textarea {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 
 @supports (display: grid) {
@@ -384,6 +386,7 @@ textarea {
     min-height: auto;
     margin: 0;
     padding: 20px;
+    border-radius: 15px;
   }
 
   .grid__item:last-child {
